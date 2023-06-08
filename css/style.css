@@ -1,3 +1,5 @@
+/* Default Settings */
+
 * {
   font-family: 'Trebuchet MS', sans-serif;
   color: black;
@@ -24,6 +26,8 @@ body {
 	background-image: linear-gradient(#48D1CC, #6495ED);
 }
 
+/* Header */
+
 header {
 	background-image: linear-gradient(#FFF5EE, #87CEEB);
 }
@@ -35,7 +39,7 @@ li:hover {
 
 /* Introduction */
 
-/* Jumbotron 8 */
+/* Jumbotron */
 
 #image {
 	height: 850px;
@@ -191,4 +195,29 @@ footer {
 
 #footer-section-title {
 	margin-bottom: 25px;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) and (max-width: 992px) {
+	#image {
+		height: 1150px;
+	}
+
+	.intro-image {
+		height: 450px;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	#image {
+		height: 1350px;
+	}
+
+	.intro-image {
+		height: 350px;
+	}
+
 }
