@@ -32,10 +32,6 @@ header {
 	background-image: linear-gradient(#FFF5EE, #87CEEB);
 }
 
-li:hover {
-	text-decoration: underline;
-}
- 
 #header-nav {
   background-color: #48D1CC;
   border-radius: 0;
