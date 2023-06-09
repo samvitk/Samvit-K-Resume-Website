@@ -38,6 +38,29 @@ header {
   border: 0;
 }
 
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#home-button {
+	color: white;
+}
+
 /* Drop-Down Menu */
 
 #nav-list {
@@ -352,4 +375,27 @@ footer {
 		height: 350px;
 	}
 
+	.navbar-brand {
+	    padding-top: 10px;
+	    height: 80px;
+	 }
+
+	.navbar-brand h1 { /* Restaurant name */
+	    padding-top: 10px;
+	    font-size: 5vw; /* 1vw = 1% of viewport width */
+  	}
+
 }
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+ @media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 6vw;
