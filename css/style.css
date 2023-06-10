@@ -87,7 +87,7 @@ header {
 
 #h1-text {
 	font-style: italic;
-	text-decoration: underline;
+	font-weight: bold;
 }
 
 #image {
@@ -140,6 +140,12 @@ header {
   	background-repeat: no-repeat;
   	background-size: cover;
   	opacity: 0.9;
+}
+
+#skills {
+	color: white;
+	font-style: italic;
+	font-weight: bold;
 }
 
 #skill-tile1, #skill-tile2, #skill-tile3, #skill-tile4, #skill-tile5, #skill-tile6  {
