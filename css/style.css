@@ -29,7 +29,7 @@ body {
 /* Header */
 
 header {
-	background-image: linear-gradient(#FFF5EE, #87CEEB);
+	background-color: #FFF5EE;
 }
 
 #header-nav {
@@ -42,7 +42,7 @@ header {
   padding-top: 25px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 
   color: white;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -133,6 +133,14 @@ header {
 }
 
 /* Skill Tiles */
+
+#image2 {
+	background-image: url("https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	opacity: 0.9;
+}
 
 #skill-tile1, #skill-tile2, #skill-tile3, #skill-tile4, #skill-tile5, #skill-tile6  {
 	height: 300px;
@@ -252,6 +260,14 @@ footer {
 
 /* Blog Styles */
 
+#image5 {
+	background-image: url("https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	opacity: 0.9;
+}
+
 #blog-title {
 	font-size: 1.5em;
 	font-style: italic;
@@ -268,11 +284,19 @@ footer {
 
 /* Experience Styles */
 
+#image3 {
+	background-image: url("https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	opacity: 0.9;
+}
+
 #experience-element1, #experience-element2, #experience-element3, #experience-element4, #experience-element5, #experience-element6 {
 	padding: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	border: 2px solid black;
-	border-radius: 10%;
+	border-radius: 15%;
 }
 
 #experience-element1:hover, #experience-element2:hover, #experience-element3:hover, #experience-element4:hover, #experience-element5:hover, #experience-element6:hover {
@@ -350,6 +374,40 @@ footer {
 .experience-description:hover {
 	text-decoration: none;
 
+}
+
+/* Other Links */
+
+.coursera-hyperlink {
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+}
+
+.coursera-hyperlink:hover {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+	color: white;
+}
+
+#other-links-title {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#image4 {
+	background-image: url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	opacity: 0.9;
+}
+
+embed {
+	margin-bottom: 10px;
 }
 
 /* Media Queries */
